@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+
+page {
+	background-color: #fafafa;
+	min-height: 100vh;
+	font-size: 24rpx;
+	color: #333;
+}
+
+.box {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10rpx;
+	box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, .1);
+}
+
+.mini-btn {
+		padding: 0 4rpx;
+		border: 1px solid #999;
+		border-radius: 5rpx;
+		font-size: 24rpx;
+}
+
+.small-btn {
+	padding: 5rpx 20rpx;
+	border-radius: 5rpx;
+	font-size: 24rpx;
+	background-color: dodgerblue;
+	color: #fff;
+}
+
+.lineEllipsis {
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	/* 超出几行省略 */
+	overflow: hidden;
+}

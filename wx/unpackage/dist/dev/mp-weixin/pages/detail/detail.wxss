@@ -1,0 +1,14 @@
+
+.nav-item {
+	background-color: #eee;
+	padding: 10px 15px;
+}
+.active {
+	border-left: 2px solid #ffd100;
+	background-color: #fff;
+	color: orange;
+}
+.view-active {
+	background-color: #ffd100;
+}
+

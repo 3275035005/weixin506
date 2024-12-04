@@ -1,0 +1,199 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登 录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "注 册",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "点 餐",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/confirm/confirm",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addAddress/addAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提交收货地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderComment/orderComment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单备注",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/orders/orders",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我 的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/orderItems/orderItems",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/browsing/browsing",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的浏览历史",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/person/person",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/business/business",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商家列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/agreement/agreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户协议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addComment/addComment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "提交评价",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/comment/comment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评价中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "熊猫外卖",
+		"navigationBarBackgroundColor": "#7FFFD4",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+			"selectedColor": "#7FFFD4",
+			"color": "#666",
+			"list": [
+				{
+					"pagePath": "pages/index/index",   // 菜单路径
+					"text": "首页",
+					"iconPath": "static/icons/home.png",   // 默认图标
+					"selectedIconPath": "static/icons/home-active.png"  // 高亮图标
+				},
+				{
+					"pagePath": "pages/orders/orders",
+					"text": "订单",
+					"iconPath": "static/icons/orders.png",
+					"selectedIconPath": "static/icons/orders-active.png"
+				},
+				{
+					"pagePath": "pages/me/me",
+					"text": "我的",
+					"iconPath": "static/icons/me.png",
+					"selectedIconPath": "static/icons/me-active.png"
+				}
+			]
+	}
+}
